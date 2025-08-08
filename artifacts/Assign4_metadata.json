@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "ifPrime",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"isprime.sol": "Assign4"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"isprime.sol": {
+			"keccak256": "0xeead3fa65519cfa4c9f8728b9c47ff7e1bb29c88896c9d499610579d780c5000",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d11c3948a77946c7d2ed0e1d502a4feeba9f797a8bcec9e42af991f64be5a5c0",
+				"dweb:/ipfs/QmYh4H8niPoLCgtghgCdxXZBANN5JoST8t5DxZXKQr9Fcy"
+			]
+		}
+	},
+	"version": 1
+}

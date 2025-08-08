@@ -6,19 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "a",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -33,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "evenodd",
+				"name": "reversenumber",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -58,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"evenodd.sol": "demo"
+			"reversenum.sol": "Assign5"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -72,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"evenodd.sol": {
-			"keccak256": "0x990c352dae66dc1f64a301cebba26031b593c1af081a0624ab0a1df4b8eaab9e",
+		"reversenum.sol": {
+			"keccak256": "0x20b6430b93fab34fbfe81d9fc4db06a5216a9c86fa8a93789b587ac509d5aa01",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2d57fbba878c7901d061d8d6b70b713dd2060607ef47a0722a18f07163aaaded",
-				"dweb:/ipfs/QmXbG8DPudEp72DujVfgJZL6VFS4fs7CmHqeLq956bTrjE"
+				"bzz-raw://9cb77935c57086ed6b524f9e9bb1baa8869ea127182780f7cc0800b042e73769",
+				"dweb:/ipfs/QmR6g7VcaVpkxTkvQptdYXkJvkW1A5xHHXufwq3Z1Xqa8E"
 			]
 		}
 	},
